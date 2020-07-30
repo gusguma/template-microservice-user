@@ -7,7 +7,7 @@ branches:
 notifications:
   email:
     recipients:
-      - gusguma@gmail.com
+      - $EMAIL
 script:
   #Test unitario y de integracion con cobertura
   - mvn org.jacoco:jacoco-maven-plugin:prepare-agent verify
