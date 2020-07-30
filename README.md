@@ -6,6 +6,7 @@
 
 ### Estado del código
 
+[![Build Status](https://travis-ci.org/gusguma/template-microservice-user.svg?branch=develop)](https://travis-ci.org/gusguma/template-microservice-user)
 
 ### Tecnologías necesarias
 * Java
