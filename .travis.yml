@@ -7,12 +7,12 @@ branches:
 notifications:
   email:
     recipients:
-      - j.bernal@upm.es
+      - gusguma@gmail.com
 script:
   #Test unitario y de integracion con cobertura
   - mvn org.jacoco:jacoco-maven-plugin:prepare-agent verify
   #SONARCLOUD
-  - mvn sonar:sonar -Dsonar.host.url=https://sonarcloud.io -Dsonar.organization=miw-upm-github -Dsonar.login=$SONAR
+  - mvn sonar:sonar -Dsonar.host.url=https://sonarcloud.io -Dsonar.organization=gusguma-github -Dsonar.login=$SONAR
 
 #Deploy https://apaw-ep-themes.herokuapp.com
 deploy:
