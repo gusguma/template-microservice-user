@@ -1,2 +1,2 @@
-web: java -Dserver.port=$PORT $JAVA_OPTS -jar target/microservices-demo-user-1.1.0-SNAPSHOT.jar
+web: java -Dserver.port=$PORT $JAVA_OPTS -jar target/template-microservice-user-1.0.0-SNAPSHOT.jar
 
