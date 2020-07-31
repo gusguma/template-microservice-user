@@ -7,6 +7,7 @@
 ### Estado del código
 
 [![Build Status](https://travis-ci.org/gusguma/template-microservice-user.svg?branch=develop)](https://travis-ci.org/gusguma/template-microservice-user)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=es.gusguma%3Atemplate-microservice-user&metric=alert_status)](https://sonarcloud.io/dashboard?id=es.gusguma%3Atemplate-microservice-user)
 
 ### Tecnologías necesarias
 * Java
