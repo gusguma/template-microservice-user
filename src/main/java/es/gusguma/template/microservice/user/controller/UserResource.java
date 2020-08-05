@@ -40,5 +40,4 @@ public class UserResource {
         userPatchDto.validate();
         this.userBusinessController.patch(id, userPatchDto);
     }
-
 }
